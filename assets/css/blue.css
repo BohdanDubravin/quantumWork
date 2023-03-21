@@ -3298,3 +3298,15 @@ preloader
     transform: scale(1.2, 1);
   }
 }
+
+
+/* custom css */
+.faq-section {
+  display: flex;
+}
+
+.faq-item {
+  max-width: 40%;
+  background: #ced3dc;
+  background:linear-gradient(-45deg, transparent 15px, #ced3dc 0);
+}
