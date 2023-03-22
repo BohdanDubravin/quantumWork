@@ -3500,8 +3500,8 @@ preloader
   background: white; 
 } 
 @media (max-width: 768px) { 
-  .active { 
-    margin-bottom: 10px; 
+.active { 
+    margin-bottom: 20px; 
   } 
 } 
 .active:hover .btn-home { 
@@ -3537,8 +3537,9 @@ preloader
 .active:hover .btn-home:before { 
   border: none; 
 } 
-.features-text { 
+.features-item .features-text { 
   display: none;
   font-size: 12px; 
   padding: 5px; 
+  margin-bottom: 0;
 } 
