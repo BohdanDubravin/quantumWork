@@ -3483,3 +3483,62 @@ preloader
   color: #fff;
 }
 
+.features-container { 
+  align-items: start; 
+  
+} 
+.active:hover { 
+  background: #37a124; 
+  color: #ffffff; 
+} 
+.active .btn-home { 
+  margin-bottom: 0; 
+   
+} 
+.active { 
+  margin-bottom: 20px; 
+  background: white; 
+} 
+@media (max-width: 768px) { 
+  .active { 
+    margin-bottom: 10px; 
+  } 
+} 
+.active:hover .btn-home { 
+  background: #37a124; 
+  color: #ffffff; 
+} 
+.active:hover :before { 
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  border-bottom: 29px solid transparent; 
+  border-right: 29px solid #fff; 
+  width: 42px; 
+  height: 0; 
+} 
+.active:hover :after { 
+  content: ""; 
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  border-top: 29px solid transparent; 
+  border-left: 29px solid #fff; 
+  width: 42px; 
+  height: 0; 
+} 
+.active .btn-home { 
+  background: transparent; 
+} 
+.active:hover .btn-home:after { 
+  border: none; 
+} 
+.active:hover .btn-home:before { 
+  border: none; 
+} 
+.features-text { 
+  display: none;
+  font-size: 12px; 
+  padding: 5px; 
+} 
