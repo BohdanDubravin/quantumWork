@@ -2690,10 +2690,6 @@ pages
   padding-bottom: 10px;
 }
 
-.about-text-left {
-  left: 50px !important;
-}
-
 .my-par {
   background-image: url("/assets/images/custom/matrix.jpg");
   min-height: 200px;
@@ -2701,6 +2697,23 @@ pages
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.about-text-left {
+  left: 50px !important;
+}
+
+@media (max-width: 770px) {
+  .page .page-bottom .about .about-text {
+    right: 0;
+  }
+  .about-text-left {
+    left: 0 !important;
+  }
+
+  .page .page-bottom .about .about-image {
+    height: 200px !important;
+  }
 }
 
 .page .page-bottom .about .about-text h2 {
